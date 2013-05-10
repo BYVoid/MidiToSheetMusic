@@ -6,7 +6,7 @@ MidiToSheetMusic is a very simple tool used for conversion from MIDI file to she
 
 [Source code](https://github.com/BYVoid/MidiToSheetMusic/archive/master.zip)
 
-[Binary version](http://www.byvoid.com/project/MidiToSheetMusic/sheet.exe) (for all platforms)
+[Binary version](http://www.byvoid.com/upload/projects/MidiToSheetMusic/sheet.exe) (for all platforms)
 
 ## Usage
 
@@ -22,7 +22,15 @@ Then you will find ``sample_1.png`` generated.
 
 ## Build
 
-Have Mono SDK (or VS) installed, run ``make``.
+Have Mono SDK (or VS) installed, then run ``make``.
+
+### Install mono compiler on Ubuntu
+
+    sudo apt-get install mono-gmcs
+
+## Screenshot
+
+![Tchaikovsky](http://www.byvoid.com/upload/projects/MidiToSheetMusic/Tchaikovsky.png)
 
 ## License
 
